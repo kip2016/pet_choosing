@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+  <img src="/static/header.png" alt="header" width="1150" height="150"><br><br>
+
+  <form action="/submit" method="post">
+    <label for="fname">First name:</label><br>
+    <input type="text" name="fname" id="fname"><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" name="lname" id="lname"><br><br>
+
+
+    <label for="pets">Choose your pet: </label>
+    <select name="pets" id="pets">
+      <option value="owl">Owl</option>
+      <option value="cat">Cat</option>
+      <option value="rat">Rat</option>
+      <option value="toad">Toad</option>
+    </select>
+    <br><br>
+    <label for="Are you staying at Hogwarts during christmas?"></label><br><br>
+       
+      <input type="radio" name="option" id="yes" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" name="option" id="no" value="no">
+      <label for="no">No</label><br>
+
+      <br><br>
+            <button><a>Send</a></button>
+  </form>
+  <img src="/static/phoenix.png" alt="phoenix" width="250" height="250">
+</body>
+</html>
